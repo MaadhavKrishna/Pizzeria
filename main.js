@@ -24,7 +24,7 @@ menu_list_array.sort();
 htmldata="<section class='cards'>"
 for(var i=0;i<menu_list_array.length;i++){
 htmldata=htmldata+'<div class="card">'
-+'<img id="im1" src="images/pizzaImg.png"/>'
++'<img id="im1" src="pizzaImg.png"/>'
 + menu_list_array[i] + '</div>'
 }
 htmldata=htmldata+"</section>"
